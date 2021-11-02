@@ -11,6 +11,7 @@
     "copy-webpack-plugin": "^9.0.1",
     "css-loader": "^6.5.0",
     "cssnano": "^5.0.9",
+    "dir-archiver": "^1.2.0",
     "file-loader": "^6.2.0",
     "image-webpack-loader": "^8.0.1",
     "mini-css-extract-plugin": "^2.4.3",
@@ -25,7 +26,10 @@
     "webpack-cli": "^4.9.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "webpack --watch --mode=development",
+    "build": "webpack",
+    "build:dev": "webpack --mode=development",
+    "bundle": "dir-archiver --src . --dest ../bundle.zip --exclude src .git .gitattributes .github .gitignore README.md composer.json composer.lock node_modules vendor package-lock.json package.json *.workspace init.sh postcss.config.js webpack.config.js"
   },
   "author": "",
   "license": "ISC"
