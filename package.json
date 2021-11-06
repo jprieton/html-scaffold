@@ -9,12 +9,12 @@
     "babel-loader": "^8.2.2",
     "clean-webpack-plugin": "^4.0.0",
     "copy-webpack-plugin": "^9.0.1",
-    "css-loader": "^6.5.0",
+    "css-loader": "^6.5.1",
     "cssnano": "^5.0.9",
     "dir-archiver": "^1.2.0",
     "file-loader": "^6.2.0",
     "image-webpack-loader": "^8.0.1",
-    "mini-css-extract-plugin": "^2.4.3",
+    "mini-css-extract-plugin": "^2.4.4",
     "node-sass": "^6.0.1",
     "postcss": "^8.2.15",
     "postcss-loader": "^6.1.1",
@@ -22,7 +22,7 @@
     "sass": "^1.43.4",
     "sass-loader": "^12.3.0",
     "sass-mq": "^5.0.1",
-    "webpack": "^5.61.0",
+    "webpack": "^5.62.1",
     "webpack-cli": "^4.9.1"
   },
   "scripts": {
