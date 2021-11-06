@@ -94,14 +94,18 @@ const rules = [
 ]
 
 const plugins = (argv) => ([
-	// Copy the package files to the build directory when is 
-	// required to use the package files separately from the build
-	// new CopyPlugin({
-	// 	patterns: [
-	// 		// Example
-	// 		{ from: "node_package/dist/", to: "vendor/node_package/", context: "node_modules" },
-	// 	],
-	// }),
+	new CopyPlugin({
+		patterns: [
+			{ from: "bootstrap/dist/", to: "vendor/bootstrap/", context: "node_modules" },
+			{ from: "owl.carousel/dist/", to: "vendor/owl.carousel/", context: "node_modules" },
+			{ from: "jquery/dist/", to: "vendor/jquery/", context: "node_modules" },
+			{ from: "popper.js/dist", to: "vendor/popper.js/", context: "node_modules/" },
+			{ from: "hover.css/css", to: "vendor/hover.css/", context: "node_modules/" },
+			{ from: "@fortawesome/fontawesome-free/css/", to: "vendor/fontawesome/css/", context: "node_modules" },
+			{ from: "@fortawesome/fontawesome-free/js/", to: "vendor/fontawesome/js/", context: "node_modules" },
+			{ from: "@fortawesome/fontawesome-free/webfonts/", to: "vendor/fontawesome/webfonts/", context: "node_modules" },
+		],
+	}),
 	new CleanWebpackPlugin({
 		"cleanStaleWebpackAssets": ("production" === argv.mode)
 	}),
