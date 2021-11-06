@@ -1,7 +1,7 @@
 {
   "name": "html-scaffold",
   "version": "0.0.1",
-  "description": "A simple base to small HTML projects",
+  "description": "A simple base for small HTML projects",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {

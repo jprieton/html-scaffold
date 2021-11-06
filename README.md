@@ -1,2 +1,2 @@
-# html-scaffold
-A simple base to small HTML projects 
+# HTML Scaffold
+A simple base for small HTML projects 
