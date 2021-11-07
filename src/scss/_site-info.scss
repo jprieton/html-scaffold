@@ -1,0 +1,30 @@
+.site-info__item {
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+  @include mq($until: md) {
+    text-align: center;
+    font-size: 0.8em;
+  }
+
+  @include mq($from: md, $until: lg) {
+    font-size: 0.9em;
+  }
+  @include mq($from: md) {
+    &:first-child {
+      text-align: left;
+    }
+    &:last-child {
+      text-align: right;
+    }
+  }
+
+  & > * {
+    &:first-child {
+      margin-top: 0;
+    }
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
