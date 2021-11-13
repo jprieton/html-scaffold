@@ -13,6 +13,7 @@ def main():
         filename = file.replace('.php', '.html')
         with open(filename, 'w') as f:
             f.write(data.text)
+            print(f'{filename} generated')
 
 if __name__ == '__main__':
     main()

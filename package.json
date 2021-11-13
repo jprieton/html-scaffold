@@ -32,10 +32,10 @@
   },
   "scripts": {
     "watch": "webpack --watch --mode=development",
-    "build": "webpack",
+    "build": "webpack --mode=production",
     "build:dev": "webpack --mode=development",
-    "bundle": "dir-archiver --src . --dest ../bundle.zip --exclude src .git .gitattributes .github .gitignore README.md composer.lock node_modules vendor partials *.py *.code-workspace *.config.js *.php *.json LICENSE",
-    "generate-html": "python3 -V"
+    "bundle": "dir-archiver --src . --dest ../bundle.zip --exclude src .git .gitattributes .github .gitignore .editorconfig .prettierignore README.md node_modules vendor partials *.py *.code-workspace *.config.js *.php *.json LICENSE",
+    "generate-html": "python3 generate-html.py"
   },
   "author": "",
   "license": "ISC"

@@ -1,4 +1,4 @@
-<!-- Two columns layout -->
+<!-- Team static layout -->
 <section class="section section--team px-3 px-md-0 py-3 py-lg-4 py-xl-5">
 
   <div class="container">
