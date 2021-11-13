@@ -1,7 +1,15 @@
 /*!
- * HTML Scaffold v0.0.1
+ * HTML Scaffold v0.1.0
  */
 
-@import "variables";
+@import "public/variables";
 @import "sass-mq";
+
+@import "public/base";
+
+@import "public/section/section";
+@import "public/footer/site-info";
+
+@import "public/section/social-links";
+@import "public/section/team";
 

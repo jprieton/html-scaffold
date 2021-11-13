@@ -1,0 +1,17 @@
+html {
+  @include mq($until: xs) {
+    font-size: calc(14px + 6 * ((100vw - 320px) / 576));
+  }
+
+  @include mq($from: xs, $until: sm) {
+    font-size: calc(15px + 5 * ((100vw - 320px) / 576));
+  }
+
+  @include mq($from: sm, $until: md) {
+    font-size: calc(16px + 4 * ((100vw - 576px) / 768));
+  }
+
+  @include mq($from: sm, $until: md) {
+    font-size: calc(16px + 3 * ((100vw - 768px) / 992));
+  }
+}

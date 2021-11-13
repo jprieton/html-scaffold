@@ -9,7 +9,7 @@ const JS_DIR = path.resolve(__dirname, "src/js")
 const BUILD_DIR = path.resolve(__dirname, "dist")
 
 const entry = {
-  "main": JS_DIR + "/index.js",
+  "public": JS_DIR + "/public.js",
 }
 const output = {
   "path": BUILD_DIR,

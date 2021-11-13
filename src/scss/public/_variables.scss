@@ -1,0 +1,85 @@
+// Variables
+
+// sass-mq breakpoints
+$mq-breakpoints: (
+  xs: 320px,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+);
+
+:root {
+  --color-primary: #00bcd4;
+  --color-secondary: #f44336;
+  --color-tertiary: #ff9800;
+
+  --color-primary-light: #00e5ff;
+  --color-secondary-light: #ff7961;
+  --color-tertiary-light: #ffc107;
+
+  --color-primary-dark: #0097a7;
+  --color-secondary-dark: #c62828;
+  --color-tertiary-dark: #ff5722;
+
+  --color-primary-text: #212121;
+  --color-secondary-text: #ffffff;
+  --color-tertiary-text: #ffffff;
+
+  --color-primary-text-light: #ffffff;
+  --color-secondary-text-light: #212121;
+  --color-tertiary-text-light: #212121;
+
+  --color-primary-text-dark: #212121;
+  --color-secondary-text-dark: #ffffff;
+  --color-tertiary-text-dark: #ffffff;
+
+  --color-primary-background: #ffffff;
+  --color-secondary-background: #ffffff;
+  --color-tertiary-background: #ffffff;
+
+  --color-primary-background-light: #ffffff;
+  --color-secondary-background-light: #ffffff;
+  --color-tertiary-background-light: #ffffff;
+
+  --color-primary-background-dark: #ffffff;
+  --color-secondary-background-dark: #ffffff;
+  --color-tertiary-background-dark: #ffffff;
+
+  --color-primary-border: #00bcd4;
+  --color-secondary-border: #f44336;
+  --color-tertiary-border: #ff9800;
+
+  --color-primary-border-light: #00e5ff;
+  --color-secondary-border-light: #ff7961;
+  --color-tertiary-border-light: #ffc107;
+
+  --color-primary-border-dark: #0097a7;
+  --color-secondary-border-dark: #c62828;
+  --color-tertiary-border-dark: #ff5722;
+
+  --color-primary-shadow: #00bcd4;
+  --color-secondary-shadow: #f44336;
+  --color-tertiary-shadow: #ff9800;
+
+  --color-primary-shadow-light: #00e5ff;
+  --color-secondary-shadow-light: #ff7961;
+  --color-tertiary-shadow-light: #ffc107;
+
+  --color-primary-shadow-dark: #0097a7;
+  --color-secondary-shadow-dark: #c62828;
+  --color-tertiary-shadow-dark: #ff5722;
+
+  --color-primary-gradient: linear-gradient(to right, #00bcd4, #00e5ff);
+  --color-secondary-gradient: linear-gradient(to right, #f44336, #ff7961);
+  --color-tertiary-gradient: linear-gradient(to right, #ff9800, #ffc107);
+
+  --color-primary-gradient-light: linear-gradient(to right, #00bcd4, #00e5ff);
+  --color-secondary-gradient-light: linear-gradient(to right, #f44336, #ff7961);
+  --color-tertiary-gradient-light: linear-gradient(to right, #ff9800, #ffc107);
+
+  --color-primary-gradient-dark: linear-gradient(to right, #0097a7, #00bcd4);
+  --color-secondary-gradient-dark: linear-gradient(to right, #c62828, #f44336);
+  --color-tertiary-gradient-dark: linear-gradient(to right, #ff5722, #ff9800);
+}

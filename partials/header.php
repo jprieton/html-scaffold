@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="dist/vendor/fontawesome/css/solid.min.css" /> <!-- Font Awesome 5 Solid -->
     <link rel="stylesheet" href="dist/vendor/fontawesome/css/regular.min.css" /> <!-- Font Awesome 5 Regular -->
     <link rel="stylesheet" href="dist/vendor/hover.css/hover-min.css" />
-    <link rel="stylesheet" href="dist/css/styles.css" />
+    <link rel="stylesheet" href="dist/css/public.css" />
   </head>
 
   <body>

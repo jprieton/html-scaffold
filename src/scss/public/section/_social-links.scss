@@ -1,0 +1,16 @@
+.section.section--social-links {
+  a {
+    font-size: 2em;
+    margin: 0 0.15em;
+
+    @include mq($until: md) {
+      &:first-child {
+        margin-left: auto;
+      }
+      &:last-child {
+        margin-right: auto;
+      }
+      font-size: 1.75em;
+    }
+  }
+}
